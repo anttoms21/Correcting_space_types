@@ -1,6 +1,6 @@
 class ParsingData
   require 'json'
-
+  #completed
   def parsing_though_space_type (space_type_in)
     space_types_read = File.read(space_type_in)
     space_types = JSON.parse(space_types_read)['tables']['space_types']['table']
